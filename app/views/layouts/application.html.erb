@@ -15,7 +15,10 @@
             <li><%= link_to I18n.t(:sign_out), destroy_user_session_path %></li>
         <% end %>
     </menu>
-    <h1><%= @title%></h1>
+    <hgroup>
+        <h1><%= @title%></h1>
+        <h2><%= @subtitle%></h2>
+    </hgroup>
     <nav>
         <ul>
             <li><%= link_to I18n.t(:conferences), conferences_path %></li>

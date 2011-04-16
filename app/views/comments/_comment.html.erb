@@ -14,8 +14,12 @@
         <%= comment.text %>
     </p>
     <footer>
-        <address>
-            <%=link_to comment.user.email, 'mailto:' + comment.user.email %>
-        </address> 
+        <menu>
+            <li>
+                <address>
+                    <%=link_to comment.user.email, 'mailto:' + comment.user.email %>
+                </address> 
+            </li>
+        </menu>
     </footer>
 </article>

@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   private
   
   def setup_application
-    @title = "JoinCoooonf: un servizio che forse non serviva"
+    @title = "JoinCoooonf"
+    @subtitle = "un servizio che forse non serviva"
   end
 end

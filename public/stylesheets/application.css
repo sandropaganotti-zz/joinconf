@@ -1,0 +1,133 @@
+/* Externals */
+@import url('http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('http://fonts.googleapis.com/css?family=Molengo');
+
+menu{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Main */
+
+body > header menu, body > header nav ul{
+  text-align: center;
+  background: #000;
+}
+
+body > header menu li, body > header nav li{
+  display: inline;
+  line-height: 30px;
+  padding: 0px 10px;
+}
+
+body > header menu li a,  body > header nav li a{
+  font-family: 'Molengo', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+  color: #FFF;
+  text-decoration: none;
+}
+
+body > header h1 {
+  text-align: center;
+  font-family: 'Lobster', arial, serif; 
+  font-size: 200px;
+}
+
+body > header h2 {
+  font-family: 'Lobster', arial, serif; 
+  text-align: center;
+  font-size: 30px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+
+body > section, body > article {
+  width: 750px;
+  margin: 40px auto;
+}
+
+body > section > h1{
+  display: none;
+  text-align:center;
+  font-size: 50px;
+  font-family: 'Molengo', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+}
+
+/* Conferences and Sessions */
+
+.stackable article{
+  width: 200px;
+  margin: 12px;
+  float: left;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+#sessions article{
+  width: 700px;
+}
+
+.stackable article h1{
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF;
+  background: #000;
+  padding: 3px 5px;
+}
+
+.stackable article header dl {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 9px;
+  font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+  line-height: 12px;
+}
+
+.stackable article header dl > *{
+  display: inline;
+}
+
+.stackable article > header{
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+} 
+
+.stackable article > p{
+  text-align: justify;
+  height: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#comments article > p{
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.stackable article > footer{
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+
+.stackable article > footer > menu {
+  text-align: right;
+  font-size: 9px;
+  font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+  margin-top: 3px;
+  line-height: 12px;
+}
+
+.stackable article > footer > menu a{
+  text-decoration: none;
+  color: #000;
+}
+
+.stackable article > footer > menu a:after{
+  content: " »";
+}
+

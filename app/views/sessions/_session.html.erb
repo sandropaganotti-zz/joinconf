@@ -3,7 +3,7 @@
         <h1><%= session.name %></h1>
         <dl>
             <dt><%= I18n.t(:speaker) %>: </dt><dd><%= session.speaker.full_name %></dd>
-            <dt><%= I18n.t(:from) %>: </dt><dd><time datetime="<%= session.start%>"><%= session.start%></time></dd>
+            <dt><%= I18n.t(:from) %>: </dt><dd><time datetime="<%= session.start.to_s(:short) %>"><%= session.start%></time></dd>
             <dt><%= I18n.t(:to)   %>: </dt>
                 <dd><time datetime="<%= session.start + session.length.minutes%>">
                     <%= session.start + session.length.minutes%>
