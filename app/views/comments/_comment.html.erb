@@ -1,0 +1,21 @@
+<article class="comment">
+    <header>
+        <h1><%= comment.user.full_name %></h1>
+        <dl>
+            <dt><%= I18n.t(:on_txt) %>:</dt>
+            <dd>
+                <time datetime="<%= comment.created_at %>" pubdate>
+                    <%= comment.created_at %>
+                </time>
+            </dd>
+        </dl>
+    </header>
+    <p>
+        <%= comment.text %>
+    </p>
+    <footer>
+        <address>
+            <%=link_to comment.user.email, 'mailto:' + comment.user.email %>
+        </address> 
+    </footer>
+</article>

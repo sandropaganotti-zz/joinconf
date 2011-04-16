@@ -1,0 +1,22 @@
+<article class="session">
+    <header>
+        <h1><%= session.name %></h1>
+        <dl>
+            <dt><%= I18n.t(:speaker) %>: </dt><dd><%= session.speaker.full_name %></dd>
+            <dt><%= I18n.t(:from) %>: </dt><dd><time datetime="<%= session.start%>"><%= session.start%></time></dd>
+            <dt><%= I18n.t(:to)   %>: </dt>
+                <dd><time datetime="<%= session.start + session.length.minutes%>">
+                    <%= session.start + session.length.minutes%>
+                </time></dd>
+        </dl>
+    </header>
+    <p>     <%= session.abstract %> </p>   
+    <footer>
+        <menu>
+            <li><%= link_to I18n.t(:view_the_comments), conference_session_comments_path(session.conference,session) %></li>
+            <% unless defined?(exclude_details) && exclude_details %>
+                <li><%= link_to I18n.t(:session_details), conference_session_path(session.conference,session) %></li>
+            <% end %>
+        </menu>
+    </footer>
+</article>

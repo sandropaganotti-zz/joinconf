@@ -1,0 +1,28 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  join_the_conference: "Join the conference"
+  view_the_sessions: "View the sessions"
+  session_details: "Session detail"
+  conference_details: "Conference detail"
+  conferences: "Conferences"
+  on_txt: "on"
+  from: "from"
+  to: "to"
+  at: "at"
+  speaker: "speaker" 
+  joined_successfully: You succesfully joined %{name}
+  joined_error: You have already joined this conference
+  comment_successfully: Thank you, comment successfully posted
+  comment_error: Errors occurred, check the form below for more info
+  new_comment:  Add a new comment
+  comments_data: Fill the form
+  view_the_comments: View the comments
+  sign_in: "Sign in"
+  sign_up: "Sign up"
+  sign_out: "Sign out"
+  comment_list: "Comments"
+  session_list: "Sessions"
+  conference_list: "Conferencies"

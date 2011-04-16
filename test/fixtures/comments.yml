@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+bella:
+  text: Enjoyed the conference even as a foreigner although all the schedules were done in Polish only. Enough to see and lot of varity in the talks. This conference could quite easily become a big international conference in the php and java world so big thumbs up for the organizers
+  user: sandro
+  commentable: mix11 (Conference)
+
+bene:
+  text: great event, with great advices from all of the speakers, thanks to all the speakers , cal evans and all staff. looking forward for more events like this.
+  user: sandro
+  commentable: whymca (Conference)
+  
+bene2:
+  text: Great conference. All the speakers did a great job and the chat in the IRC was very helpful as well. Thanks for doing such a great job!
+  user: sandro
+  commentable: whymca (Conference)
+
+mmh:
+  text: As a manager working more from your point of view but attending this daycamp to hear the "other side", I'm really glad at least one person was here giving the "reality check" - you said all the things that I would want an employee to hear before asking me about working from home. Nice talk!
+  user: sandro
+  commentable: jquery (Session)

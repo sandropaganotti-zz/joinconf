@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JoinConf: <%= @title %></title>
+  <%= stylesheet_link_tag :all %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<header>
+    <menu>
+        <% if !user_signed_in? %>
+            <li><%= link_to I18n.t(:sign_in), new_user_session_path %></li>
+            <li><%= link_to I18n.t(:sign_up), new_user_registration_path %></li>
+        <% else %>
+            <li><%= link_to I18n.t(:sign_out), destroy_user_session_path %></li>
+        <% end %>
+    </menu>
+    <h1><%= @title%></h1>
+    <nav>
+        <ul>
+            <li><%= link_to I18n.t(:conferences), conferences_path %></li>
+        </ul>
+    </nav>
+</header>
+
+<p><%= "#{flash[:notice]} #{flash[:error]}"%></p>
+
+<%= yield %>
+
+<%= javascript_include_tag :defaults %>
+</body>
+</html>

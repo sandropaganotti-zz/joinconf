@@ -1,0 +1,30 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+
+whymca:
+  name: WHYMCA 
+  start: 2011-05-20
+  end: 2011-05-21
+  attendees_max: 100
+  attendees_count: 0
+  description: Una due giorni ricca di seminari tutti incentrati sul mondo mobile, dalla programmazione verticale a quella crossplaform, User eXperience, monetization e tanti altri temi caldi.
+  location: Las Vegas, Nevada, USA
+
+mix11:
+  name: Mix11 
+  start: 2011-04-11
+  end: 2011-04-14
+  attendees_max: 1000
+  attendees_count: 0
+  description: MIX is a gathering of developers, designers, UX experts and business professionals creating the most innovative and profitable consumer sites on the web. Sessions range from technical, code-based topics to expert advice on content strategy, usability and design.
+  location: Las Vegas, Nevada, USA
+
+phpday:
+  name: PHPDAY
+  start: 2011-05-12
+  end: 2011-05-14
+  attendees_max: 200
+  attendees_count: 0
+  description: phpDay 2011 will be from 12th to 14th of May. We'll show new development traits, best-practices and success cases related to quality, revision control, test-driven development, continuous integration and so on
+  location: Verona, Verona, Italy
+  

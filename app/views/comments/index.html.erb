@@ -1,0 +1,18 @@
+<section>
+    <h1><%= I18n.t(:new_comment) %></h1>
+    <%= form_for(@current_commentable_stack << @comment) do |f| %>
+        <fieldset>
+            <legend><%= I18n.t(:comments_data) %></legend>
+            <dl>
+                <dt><%= f.label :text  %>:</dt>
+                <dd><%= f.text_area :text %></dd>
+            </dl>
+            <%= f.submit %>
+        </fieldset>
+    <% end %>
+</section>
+
+<section id="comments">
+    <h1><%= I18n.t(:comment_list)%></h1>
+    <%= render :partial => @comments %>
+</section>

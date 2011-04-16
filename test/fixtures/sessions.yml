@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+cloud:
+  name: Cloud Computing with the Windows Azure Platform
+  abstract: Cloud computing is being viewed as the one of the most important concepts in IT going forward. In the last couple of years it has moved from high-level concept to a technology that is now seeing mainstream adoption. In this half-day workshop we will begin by discussing the what, why and how of cloud computing. After we have covered the fundamentals of cloud computing, we will dive deep into the Windows Azure platform. This will include a discussion of various building blocks, features, and tooling. Next, through a series of demos we’ll review a variety of features of the platform and patterns that can help you move your on-premise workloads to the cloud. Finally, we will discuss the economics of cloud including cost and SLA. What we expect of you is that you have a basic awareness around .NET and experience building web applications. What you can expect from us is a half-day bringing you up to speed on the essentials of building applications on the Azure platform. Vishwas Lele is an AIS Chief Technology Officer and is responsible for the company vision and execution of creating business solutions using the Microsoft Windows Azure Platform
+  start: 2011-04-11 09:00:00
+  length: 210
+  speaker: alberto
+  conference: mix11
+
+jquery:
+  name: jQuery Boot Camp
+  abstract: jQuery has become one of the most popular JavaScript libraries for building rich, interactive, cross-browser Web sites and applications. In this session, Joe Marini will show you how to get started using the power of jQuery and its sister library jQueryUI to build your next-generation Web applications. Whether it’s animation, dynamic formatting, AJAX, or complicated UI, jQuery has the features you need to help tackle your hardest Web development problems.
+  start: 2011-04-11 13:30:00
+  length: 210
+  speaker: alberto
+  conference: mix11
