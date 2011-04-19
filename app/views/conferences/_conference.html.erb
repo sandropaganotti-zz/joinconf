@@ -10,16 +10,17 @@
     <p>
         <%= conference.description %>
     </p>
-        <footer>
-            <menu>
-                <li><%= link_to I18n.t(:view_the_sessions  ), conference_sessions_path(conference) %></li>
-                <li><%= link_to I18n.t(:view_the_comments  ), conference_comments_path(conference) %></li>
-                <% unless current_user && current_user.already_joined?(conference) %>
-                    <li><%= link_to I18n.t(:join_the_conference), conference_attendees_path(conference), :method => :post %></li>
-                <% end %>
-                <% unless defined?(exclude_details) && exclude_details %>
-                    <li><%= link_to I18n.t(:conference_details ), conference_path(conference)%></li>
-                <% end %>
-            </menu>
-        </footer>
+    <footer>
+        <menu>
+            <li><%= link_to I18n.t(:view_the_sessions  ), conference_sessions_path(conference) %></li>
+            <li><%= link_to I18n.t(:view_the_comments  ), conference_comments_path(conference) %></li>
+            <% unless current_user && current_user.already_joined?(conference) %>
+                <li><%= link_to I18n.t(:join_the_conference), conference_attendees_path(conference), :method => :post %></li>
+            <% end %>
+            <% unless defined?(exclude_details) && exclude_details %>
+                <li><%= link_to I18n.t(:conference_details ), conference_path(conference)%></li>
+            <% end %>
+        </menu>
+    </footer>
+    <div class="clear"></div>
 </article>

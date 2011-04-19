@@ -8,6 +8,10 @@ menu{
   padding: 0px;
 }
 
+.clear{
+  clear: both;
+}
+
 /* Main */
 
 body > header menu, body > header nav ul{
@@ -53,7 +57,19 @@ body > section > h1{
   font-family: 'Molengo', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
 }
 
-/* Conferences and Sessions */
+/* footer */
+body > footer{
+  text-align:center;
+  font-family: 'Molengo', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+}
+
+body > footer p{
+  width: 750px;
+  margin: 0px auto;
+  padding: 40px 0px 10px 0px;
+}
+
+/* Conferences and Sessions and Comments */
 
 .stackable article{
   width: 200px;
@@ -131,3 +147,106 @@ body > section > h1{
   content: " »";
 }
 
+/* New Comment */
+#new {
+  border-bottom: 1px dashed #000;
+  padding-bottom: 40px;
+}
+
+#comment_submit{
+  float: right;
+}
+
+#new legend{
+  font-family: 'Lobster', arial, serif; 
+  font-size: 30px;
+}
+
+#new textarea{
+  height: 60px;
+  width:  700px;
+  margin: 12px;
+  border: 3px solid #000;
+}
+
+#new dl > dt{
+  display: none;
+}
+
+/* == devise == */
+#devise{
+  width: 260px;
+  padding: 10px;
+  border: 3px solid #000;
+}
+
+#devise{
+  text-align: right;
+}
+
+#devise form{
+  text-align: left;
+}
+
+#devise form input{
+  margin-bottom: 10px;
+}
+
+#devise h2{
+  font-family: 'Lobster', arial, serif; 
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* == dettaglio == */
+
+body > article {
+   border-bottom: 1px dashed #000;
+   padding-bottom: 30px;
+   margin-bottom: 0px;
+}
+
+body > article > header{
+  float: left;
+  width: 275px;
+}
+
+body > article > p, body > article > footer{
+  float: right;
+  width: 475px;
+}
+
+body > article  p{
+  margin-top: 40px;
+}
+
+body > article  h1{
+  font-family: 'Lobster', arial, serif; 
+  font-size: 30px;  
+  margin-bottom: 5px;
+}
+
+body > article footer{
+  text-align: right;
+  font-size: 9px;
+  font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+  line-height: 12px;
+}
+
+body > article footer a:after{
+  content: " »";
+}
+
+body > article footer a{
+  color: #000;
+}
+
+body > article  dt{
+  font-size: 12px;  
+}
+
+body > article  dd{
+  font-family: 'Molengo', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+  font-size: 20px;  
+}
