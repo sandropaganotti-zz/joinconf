@@ -16,6 +16,7 @@
         <% end %>
     </menu>
     <hgroup>
+        <%= image_tag 'monkey.jpg'%>
         <h1><%= @title%></h1>
         <h2><%= @subtitle%></h2>
     </hgroup>
@@ -29,7 +30,6 @@
 <p><%= "#{flash[:notice]} #{flash[:error]}"%></p>
 
 <%= yield %>
-
 
 <div class="border clear"></div>
 <footer>

@@ -14,6 +14,18 @@ menu{
 
 /* Main */
 
+body > header img{
+  width: 180px;
+  position: absolute;
+  bottom: -95px;
+}
+
+body > header hgroup{
+  width: 960px;
+  position: relative;
+  margin: 0px auto;
+}
+
 body > header menu, body > header nav ul{
   text-align: center;
   background: #000;
@@ -250,3 +262,15 @@ body > article  dd{
   font-family: 'Molengo', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
   font-size: 20px;  
 }
+
+
+
+/* ================================= */
+body > header {
+  background: #FF6600;
+}
+
+body > header menu li a,  body > header nav li a{
+  color: #FF6600;
+}
+
