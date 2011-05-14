@@ -1,6 +1,7 @@
 class Conference < ActiveRecord::Base
   
-  validates_presence_of :name, :start, :end, :users_max, :location
+  validates :name, :start, :end, :users_max, :location,
+            :presence => true
   default_scope :order => "start DESC"
   
   has_many :sessions
