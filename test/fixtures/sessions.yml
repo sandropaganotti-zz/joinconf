@@ -15,3 +15,11 @@ jquery:
   length: 210
   speaker: alberto
   conference: mix11
+
+rorsf:
+  name: "syMfony and RoR3: friends for an hour"
+  abstract: Il talk è focalizzato sulla spiegazione delle princiapli differenze/similitudini fra questi due web framework mainstream. Adotteremo un approccio Top-Down parallelo nel quale gli aspetti di maggior importanza di entrambi i framework verranno descritti uno per uno a partire da quelli più infrastrutturali fino ad arrivare a quelli prevalentemente implementativi. Nella parte conclusiva dello speech ci focalizzeremo nel mostrare le filosofie dietro questi framework esponendo le feature più interessanti di entrambi i mondi.  Tre speaker parteciperanno a questo speech. ognuno avrà un particolare ruolo, Alessandro, essendo PHP developer, si occuperà di approfondire glia spetti implementativi di syMfony2;
+  start: 2011-06-10 12:10:00
+  length: 60
+  speaker: alberto
+  conference: rubyday
